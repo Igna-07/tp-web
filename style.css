@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.caja {
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.seleccionada {
+    background-color: lightgreen;
+    border-color: green;
+}
